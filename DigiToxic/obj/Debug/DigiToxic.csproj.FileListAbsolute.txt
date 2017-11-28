@@ -29,6 +29,6 @@ C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\bin\DigiToxic.dll
 C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\bin\DigiToxic.pdb
 C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\obj\Debug\DigiToxic.csprojResolveAssemblyReference.cache
 C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\obj\Debug\DigiToxic.dll
 C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\obj\Debug\DigiToxic.pdb
+C:\Users\bbzw\Documents\M133\DigiToxic\DigiToxic\DigiToxic\obj\Debug\DigiToxic.csprojResolveAssemblyReference.cache

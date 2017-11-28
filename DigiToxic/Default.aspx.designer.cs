@@ -13,12 +13,12 @@ namespace DigiToxic {
     public partial class Default {
         
         /// <summary>
-        /// form1-Steuerelement
+        /// lstProducts-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.ListView lstProducts;
     }
 }

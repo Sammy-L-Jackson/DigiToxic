@@ -1,16 +1,33 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DigiToxic.Default" MasterPageFile="~/Site.Master" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DigiToxic.Default" %>
 
-<!DOCTYPE html>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+    <h1>Produkte</h1>
+
+    <asp:ListView ID="lstProducts" runat="server">
+        <LayoutTemplate>
+            <table runat="server" id="tblProducts">
+                <tr runat="server" id="itemPlaceholder"></tr>
+            </table>
+        </LayoutTemplate>
+        <ItemTemplate>
+            <tr runat="server">
+                <td>
+                    <asp:Image ID="imgPreview" runat="server" Width="50" Height="50" ImageUrl='<%#Eval("Image") %>' />
+                </td>
+                <td>
+                    <asp:Label ID="lblProductName" runat="server" Text='<%#Eval("Name") %>' />
+                </td>
+                <td>
+                    <asp:Label ID="lblSpecialOffer" runat="server" Text='<%#Eval("SpecialOffer") %>' />
+                </td>
+                <td>
+                    <asp:Label ID="lblNormalPrice" runat="server" Text='<%#Eval("NormalPrice") %>' />
+                </td>
+                <td>
+                    <asp:Label ID="lblDescription" runat="server" Text='<%#Eval("Description") %>' />
+                </td>
+            </tr>
+        </ItemTemplate>
+    </asp:ListView>
+</asp:Content>
